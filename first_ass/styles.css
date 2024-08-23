@@ -1,0 +1,161 @@
+
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #F7F7F7;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+header {
+  background-color: #1A1A1D;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 150px;
+  height: auto;
+}
+
+header .social-links a {
+  color: #F7F7F7;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+header .social-links a:hover {
+  color: #C3073F;
+}
+
+nav {
+  background-color: #4E4E50;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #F7F7F7;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #C3073F;
+  color: #fff;
+}
+
+
+.sidebar {
+  background-color: #6F2232;
+  padding: 20px;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 90px; 
+  left: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  color: #F7F7F7;
+  font-weight: 500;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #C3073F;
+  color: #fff;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 40px;
+  background-color: #FFF;
+}
+
+.main-content article {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ECECEC;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.main-content h2 {
+  margin-bottom: 15px;
+  color: #C3073F;
+}
+
+
+footer {
+  background-color: #1A1A1D;
+  color: #F7F7F7;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+footer ul li a {
+  color: #F7F7F7;
+  font-weight: 500;
+}
+
+footer ul li a:hover {
+  color: #C3073F;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
